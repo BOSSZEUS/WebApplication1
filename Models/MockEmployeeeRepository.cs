@@ -13,9 +13,9 @@ namespace WebApplication1.Models
         {
             _employeeList = new List<Employee>()
             {
-                new Employee() {Id = 1, Name = "Mary", Department = "HR", Email = "Mary@blahblah.com"},
-                new Employee() {Id = 2, Name = "john", Department = "IT", Email = "John@blahblah.com"},
-                new Employee() {Id = 3, Name = "mike", Department = "IT", Email = "mike@blahblah.com"}
+                new Employee() {Id = 1, Name = "Mary", Department = Dept.Hr, Email = "Mary@blahblah.com"},
+                new Employee() {Id = 2, Name = "john", Department = Dept.It, Email = "John@blahblah.com"},
+                new Employee() {Id = 3, Name = "mike", Department = Dept.It, Email = "mike@blahblah.com"}
             };
         }
 
